@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+# Wifidog
+RewriteRule ^login/$    inc/devices/wifidog.php?type=login$1    [QSA]
+RewriteRule ^auth/$     inc/devices/wifidog.php?type=auth$1     [QSA]
+RewriteRule ^ping/$     inc/devices/wifidog.php?type=ping$1     [QSA]
+RewriteRule ^portal/$   inc/devices/wifidog.php?type=portal$1   [QSA]
