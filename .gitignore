@@ -1,0 +1,32 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config.php
+db-config.php
+*.local.php
+
+# Logs
+*.log
+logs/
+
+# Vendor/Dependencies
+vendor/
+composer.lock
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Backup
+*.bak
+*.backup
